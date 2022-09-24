@@ -149,7 +149,10 @@ cursor: pointer;
 .notificacao.comentario-imagem{
   grid-template-columns: auto 1fr auto;
 }
-
+.markAll:hover, .nome:hover, .group:hover, .postagem:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
 @media(max-width: 450px){
   .secao-notificacao{
     margin: auto auto;
