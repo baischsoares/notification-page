@@ -149,6 +149,23 @@ cursor: pointer;
 .notificacao.comentario-imagem{
   grid-template-columns: auto 1fr auto;
 }
+.unread div p{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.unread div p::after{
+  content: '';
+  margin-left: 5px;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #F65552;
+  border-radius: 5px;
+}
+
+
+
 .markAll:hover, .nome:hover, .group:hover, .postagem:hover{
   color: #0A327B;
   cursor: pointer;
